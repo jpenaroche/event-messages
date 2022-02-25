@@ -1,0 +1,9 @@
+extends layout
+
+block script 
+    script(src='/javascripts/index.js'  data-container='container')
+
+block content
+  h1= title
+  p Welcome to #{title}
+  <div id="container" style="min-height:200px"></div>
